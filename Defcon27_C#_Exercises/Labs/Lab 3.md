@@ -4,7 +4,7 @@
 ### CTF 2: Modify Exercise 2’s source code to obtain a meterpreter shell by abusing InstallUtil.exe
 The goal of this is to "live off the land" using a legitimate signed windows utility to load our payload. 
 
-This was accomplished by modifying the run Method, pointing the process to start meterpreter payload used in Lab 2:
+This was accomplished by modifying the run Method, and pointing the process start method to the custom stager serving the meterpreter payload used in Lab 2:
 
 ```c#
 public static void Run()
