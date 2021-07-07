@@ -10,4 +10,4 @@ Add:
 [DllImport("kernel32")]
 public static extern bool FreeConsole();
 ```
-to global scope, then make the call in the ```c# Stager()``` method:
+to global scope, then make the call in the ``` Stager()``` method:
